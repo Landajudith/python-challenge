@@ -4,7 +4,7 @@ import os
 
 import csv
 
-csvpath = "Resources/election_data.csv"
+csvpath = "pypoll\election_data.csv"
 
 # The total number of votes cast
 totalvotes=0
@@ -53,7 +53,7 @@ max_key = max(votes, key=lambda k: votes[k])
 
 
 # Specify the file to write to
-output_path = "analysis/election_analysis.txt"
+output_path = "pypoll\analysis"
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w') as textfile:
